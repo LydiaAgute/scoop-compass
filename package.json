@@ -1,0 +1,24 @@
+{
+  "name": "scoop-compass",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.5.1",
+    "vue": "^3.3.7",
+    "vue-i18n": "^9.6.4"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.5.6",
+    "@vitejs/plugin-vue": "^4.4.0",
+    "prettier": "^3.0.3",
+    "sass": "^1.69.5",
+    "vite": "^4.5.0"
+  }
+}
