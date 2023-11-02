@@ -1,4 +1,4 @@
-module.exports = {
+const config = {
   semi: true, //句末使用分号
   vueIndentScriptAndStyle: false, //不对vue中的script及style标签缩进
   proseWrap: 'preserve', //markdown 文本中的换行,保持原样
@@ -7,5 +7,7 @@ module.exports = {
   singleQuote: true, //使用单引号
   arrowParens: 'always', //单参数箭头函数参数周围使用圆括号-eg: (x) => x
   trailingComma: 'all', //多行时尽可能打印尾随逗号
-  htmlWhitespaceSensitivity: 'ignore' //对HTML全局空白不敏感
+  htmlWhitespaceSensitivity: 'ignore', //对HTML全局空白不敏感
 };
+
+export default config;
